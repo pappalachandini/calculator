@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.cal{
+    width: 100%;
+    height:100vh;
+    background-color: rgb(117, 245, 117);
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.c{
+   background-color: rgb(2, 74, 2) ;
+   padding: 20px;
+   border-radius: 15px;
+  
+}
+.c form input{
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    width: 59px;
+    height: 59px;
+    box-shadow: -7px -7px 35px rgba(280 280, 280, 0.1), 5px 5px 15px rgba(0,0,0,0.2);
+    color: #fff;
+    background: transparent;
+    margin: 6px;
+    cursor: pointer;
+    font-size: 20px;
+}
+form .dip{
+     display: flex;
+     justify-content: flex-end;
+     margin: 20px 0;
+}
+form .dip input{
+    text-align: right;
+    flex:1;
+    font-size: 45px;
+    box-shadow: none;
+}
+form input.eqls{
+    width: 143px;
+}
